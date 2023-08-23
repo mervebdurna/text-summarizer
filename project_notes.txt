@@ -1,0 +1,27 @@
+step 1 : Create template.py  [to create needed files and folders. update the project name]
+step 2 : Create new venv [Menu / View / Command Palette / venv]
+step 3 : Create requirements.txt [to install needed packages. if get error try pip freeze > requirements.txt to create file automatically]
+step 4 : setup.py 
+step 5 : run commads 
+        !pip install --upgrade accelerate
+        !pip uninstall -y transformers accelerate
+        !pip install transformers accelerate
+        [https://huggingface.co/docs/accelerate/basic_tutorials/install]
+step 6 : logging / exceptions / utils update files
+
+# Logger
+       [
+        https://machinelearningmastery.com/logging-in-python/
+        We can configure the output destination of our logger with handlers. Handlers are responsible for sending the log messages to the correct destination. 
+        There are several types of handlers; the most common ones are StreamHandler and FileHandler. 
+        With StreamHandler, the logger will output to the terminal, while with FileHandler, the logger will output to a particular file.
+        ]
+
+# Utils
+[from box.exceptions import BoxValueError -- > to handle type annotation error 2*'4' -- > 44 ,
+from ensure import ensure_annotations --> decorator to get dict.key format instead of dict['key] 
+]
+
+# Exception Handling 
+
+[use from box.exceptions import BoxValueError ]
