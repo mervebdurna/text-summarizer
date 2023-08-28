@@ -25,3 +25,24 @@ from ensure import ensure_annotations --> decorator to get dict.key format inste
 # Exception Handling 
 
 [use from box.exceptions import BoxValueError ]
+
+
+step 7 : create config/congig.yaml ve params.yaml 
+step 8 : assign config and params path inside the constant/__init__.py
+step 9 : Create Components 
+        Steps for each components : 
+        - Update config.yaml
+        - Update params.yaml -- ignore as we dont have params
+        - Update entity
+        - Update the configuration manager in src config
+        - update the components
+        - update the pipeline
+        - update the main.py
+        - update the app.py
+        
+        1 - Data Ingestion
+        2- Data Validation 
+        3 - 
+
+Notes : 
+add artifacts to gitignore
