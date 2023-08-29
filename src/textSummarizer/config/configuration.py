@@ -36,8 +36,8 @@ class ConfigurationManager:
         create_directories([config.root_dir])
         data_validation_config = DataValidationConfig(
             root_dir = config.root_dir,
-            STATUS_FILE = config.STATUS_FILE,
-            ALL_REQUIRED_FILE = config.ALL_REQUIRED_FILE
+            validation_report = config.validation_report,
+            required_files = config.required_files
         )
 
         return data_validation_config
