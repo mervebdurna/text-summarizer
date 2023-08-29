@@ -41,8 +41,8 @@ step 9 : Create Components
         - update the app.py
         
         1 - Data Ingestion
-        2- Data Validation 
-        3 - 
+        2 - Data Validation 
+        3 - Data Transformation : pip install sentencepiece, protobuf if there is related issue
 
 Notes : 
 add artifacts to gitignore
