@@ -43,6 +43,8 @@ step 9 : Create Components
         1 - Data Ingestion
         2 - Data Validation 
         3 - Data Transformation : pip install sentencepiece, protobuf if there is related issue
+        4 - Model trainer : killed while downloading torch use : pip instyall torch --no-cache-dir
+          type dmesg in terminal  to see the reason for killed
 
 Notes : 
 add artifacts to gitignore
